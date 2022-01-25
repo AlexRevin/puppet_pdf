@@ -26,4 +26,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop', '~> 0.72.0'
 
   spec.add_dependency 'railties', '>= 7.0.0'
+  spec.add_dependency 'activerecord', '>= 7.0.0'
 end
