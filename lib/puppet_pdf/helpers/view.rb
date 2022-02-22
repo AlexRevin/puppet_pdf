@@ -31,7 +31,7 @@ module PuppetPdf
       private
 
       def asset_content(asset)
-        url = asset_url(asset)
+        url = ActionController::Base.helpers.asset_url(asset)
         OpenURI.open_uri(url, &:read)
       end
     end
